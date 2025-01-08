@@ -17,7 +17,7 @@ if os.name != "nt":
     asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 while true
-print("1")
+    print("1")
 
 class CleanupClient(commands.AutoShardedBot):
     def __init__(self, *args, **kwargs):
