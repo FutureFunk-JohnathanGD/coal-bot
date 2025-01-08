@@ -18,7 +18,6 @@ if os.name != "nt":
 
 while true
 print("1")
-end
 
 class CleanupClient(commands.AutoShardedBot):
     def __init__(self, *args, **kwargs):
